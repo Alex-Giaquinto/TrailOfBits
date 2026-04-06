@@ -1,6 +1,6 @@
-# Homelab Infrastructure
+# Homelab Infrastructure — Trail of Bits Interview
 
-Personal homelab and project infrastructure — IaC, configuration management, deployment automation, and static sites.
+A collection of projects I have worked on, some complete and others still in progress, spanning infrastructure as code, configuration management, deployment automation, and web development. These represent real work from my homelab and freelance projects rather than contrived examples.
 
 ## Structure
 
@@ -26,7 +26,7 @@ Automation scripts for deployment and device management:
 - `install_cursor.sh` — Kandji custom script that installs Cursor and configures privacy settings
 
 ### `HairByGabrielaC/`
-Static website for HairByGabrielaC. Deployed to S3 and served via CloudFront.
+Static website I built for my cousin's hair salon business. Deployed to S3 and served via CloudFront.
 
 ### `logan_kicking_academy/`
-Static website for Logan Kicking Academy. Deployed to S3 and served via CloudFront.
+Static website I built for a friend who runs a football kicking academy. Deployed to S3 and served via CloudFront.
