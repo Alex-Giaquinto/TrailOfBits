@@ -1,6 +1,6 @@
 # Homelab Infrastructure — Trail of Bits Interview
 
-A collection of projects I have worked on, some complete and others still in progress, spanning infrastructure as code, configuration management, deployment automation, and web development. These represent real work from my homelab and freelance projects rather than contrived examples.
+A collection of projects I have worked on, some complete and others still in progress, spanning infrastructure as code, configuration management, deployment automation, and web development.
 
 ## Structure
 
