@@ -1,0 +1,8 @@
+---
+# requirements.yml — Ansible Galaxy dependencies for the Packer AMI build.
+# Install with: ansible-galaxy install -r requirements.yml -p roles/
+
+roles:
+  - name: ansible-role-cis-benchmark
+    src: https://github.com/trailofbits/ansible-role-cis-benchmark
+    version: main

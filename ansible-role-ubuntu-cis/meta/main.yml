@@ -1,0 +1,25 @@
+galaxy_info:
+  author: Alexander Giaquinto
+  description: Ubuntu Hardening 
+  company: Alex Home Lab
+
+  license: license (GPL-2.0-or-later, MIT, etc)
+
+  min_ansible_version: 2.1
+
+  platforms:
+    - name: ubuntu
+      versions:
+        - LTS
+        - bionic
+
+  galaxy_tags:
+    [
+      ubuntu,
+      cis,
+      ansible,
+      hardening,
+      security,
+      cisecurity,
+    ]
+dependencies: []

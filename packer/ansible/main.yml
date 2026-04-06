@@ -1,0 +1,6 @@
+---
+- name: Apply CIS hardening
+  hosts: all
+  become: true
+  roles:
+    - ansible-role-ubuntu-cis

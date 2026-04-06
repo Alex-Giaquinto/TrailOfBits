@@ -1,0 +1,31 @@
+---
+# handlers file for ansible-role-ubuntu-cis
+# Version 20.04-LTS - CIS For 22.04 is not published yet.
+- name: grub restart
+  command: update-grub
+#- name: journald restart
+#  service:
+#    name: systemd-journald
+#    state: restarted
+#- name: auditd restart
+#  service:
+#    name: auditd
+#    state: restarted
+- name: audit rules load
+  shell: /sbin/augenrules --load && true || true
+- name: sshd restart
+  service:
+    name: sshd
+    state: restarted
+#- name: rsyslog restart
+#  service:
+#    name: rsyslog
+#    state: restarted
+- name: RestartChronyservice
+  service:
+    name: "chrony"
+    state: restarted
+- name:  reloadTimesyncd
+  service:
+    name:  systemd-timesyncd
+    state: restarted

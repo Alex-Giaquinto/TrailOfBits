@@ -1,0 +1,3 @@
+---
+# vars file for ansible-role-ubuntu-cis
+# Version 20.04-LTS - CIS For 22.04 is not published yet.
